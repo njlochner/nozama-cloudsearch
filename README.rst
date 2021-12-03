@@ -138,7 +138,7 @@ command line.
 Development
 -----------
 
-I develop and maintain project on Mac OSX. I have install docker-composer, docker, virtualenvwrappers and Python3 using brew. I use "make" to aid development.
+I develop and maintain project on Mac OSX. I have installed `docker-composer`, `docker`, `virtualenvwrapper` and `python3` using brew. I use "make" to aid development.
 
 .. code-block:: sh
 
@@ -148,10 +148,10 @@ I develop and maintain project on Mac OSX. I have install docker-composer, docke
     # (activate if needed)
     workon nozama
 
-    # Install the project dependancies
+    # Install the project dependencies
     make install
 
-    # Start the project dependancies ElasticSearch and Mongo
+    # Start the project dependencies ElasticSearch and Mongo
     make up
 
     # Run the API locally:

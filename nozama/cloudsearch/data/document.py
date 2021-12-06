@@ -239,7 +239,10 @@ def load(docs_to_load):
             found = conn.documents.find_one(query)
             if found:
                 log.debug("adding to remove store: '{0}'".format(query))
-                conn.documents_removed.insert(found)
+                try:
+                    conn.documents_removed.insert(found)
+                except:
+                    log.debug("ignored exception caught in conn.documents_removed.insert(found)")
                 conn.documents.remove(query)
                 remove_from_elasticsearch(doc)
 

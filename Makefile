@@ -6,7 +6,7 @@
 GIT_COMMIT?=$(shell git rev-parse HEAD)
 DOCKER_NAME=nozama-cloudsearch
 DOCKER_IMAGE=${DOCKER_NAME}:${GIT_COMMIT}
-DOCKER_REPO=oisinmulvihill/${DOCKER_NAME}
+DOCKER_REPO=njlochner/${DOCKER_NAME}
 
 clean:
 	rm -rf dist/ build/

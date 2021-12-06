@@ -138,7 +138,7 @@ command line.
 Development
 -----------
 
-I develop and maintain project on Mac OSX. I have install docker-composer, docker, virtualenvwrappers and Python3 using brew. I use "make" to aid development.
+I develop and maintain project on Mac OSX. I have install docker-composer, docker, virtualenvwrapper and Python3 using brew. I use "make" to aid development.
 
 .. code-block:: sh
 
